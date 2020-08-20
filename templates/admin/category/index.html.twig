@@ -12,14 +12,16 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>Titre</th>
+                <th>Nom catégory</th>
+                <th>Nombre de vidéos</th>
                 <th>Actions</th>
             </tr>
             </thead>
             <tbody>
             {% for category in categories %}
                 <tr>
-                    <td>{{ category.name }}</td>
+                    <td>{{ category.title }}</td>
+                    <td>{{ category.video.count }}</td>
                     <td><a href="{{ path('admin.category.edit', {id: category.id}) }}" class="btn btn-secondary">modifier</a>
                         <form method="POST" action="{{ path('admin.category.delete', {id: category.id}) }}" style="display: inline-block" onsubmit="return confirm('Vous êtes sûr ?')">
                             <input type="hidden" name="_method" value="DELETE">

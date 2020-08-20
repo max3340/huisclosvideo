@@ -12,7 +12,8 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>Titre</th>
+                <th>Nom de vidéos</th>
+                <th>Catégory</th>
                 <th>Actions</th>
             </tr>
             </thead>
@@ -20,6 +21,7 @@
             {% for video in videos %}
                 <tr>
                     <td>{{ video.title }}</td>
+                    <td>{{ video.category.title }}</td>
                     <td><a href="{{ path('admin.video.edit', {id: video.id}) }}" class="btn btn-secondary">modifier</a>
                         <form method="POST" action="{{ path('admin.video.delete', {id: video.id}) }}" style="display: inline-block" onsubmit="return confirm('Vous êtes sûr ?')">
                             <input type="hidden" name="_method" value="DELETE">
