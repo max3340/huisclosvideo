@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="623be344-57be-49b5-8dc1-d86b0bc8eb28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/category/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/category/_form.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,7 @@
       <workItem from="1597917300596" duration="580000" />
       <workItem from="1597917895103" duration="2381000" />
       <workItem from="1597920378724" duration="7845000" />
-      <workItem from="1597933380194" duration="1176000" />
+      <workItem from="1597933380194" duration="1537000" />
     </task>
     <servers />
   </component>
