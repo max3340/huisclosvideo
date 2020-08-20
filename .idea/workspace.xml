@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="623be344-57be-49b5-8dc1-d86b0bc8eb28" name="Default Changelist" comment="" />
+    <list default="true" id="623be344-57be-49b5-8dc1-d86b0bc8eb28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +166,8 @@
       <updated>1597917298245</updated>
       <workItem from="1597917300596" duration="580000" />
       <workItem from="1597917895103" duration="2381000" />
-      <workItem from="1597920378724" duration="6992000" />
+      <workItem from="1597920378724" duration="7845000" />
+      <workItem from="1597933380194" duration="143000" />
     </task>
     <servers />
   </component>
@@ -181,6 +184,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -190,6 +194,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="514" y="337" key="#Composer/0.0.1440.900@0.0.1440.900" timestamp="1597917495842" />
+    <state x="354" y="135" key="#Inspections" timestamp="1597933332665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1597933332665" />
     <state x="203" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597918184638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
