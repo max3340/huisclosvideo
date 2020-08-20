@@ -22,6 +22,7 @@
     <list default="true" id="623be344-57be-49b5-8dc1-d86b0bc8eb28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/huisclos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huisclos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +128,14 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gMGxiSQNlc9HYtrwsCXF0kjnwR" />
@@ -157,7 +166,7 @@
       <updated>1597917298245</updated>
       <workItem from="1597917300596" duration="580000" />
       <workItem from="1597917895103" duration="2381000" />
-      <workItem from="1597920378724" duration="3479000" />
+      <workItem from="1597920378724" duration="4152000" />
     </task>
     <servers />
   </component>
