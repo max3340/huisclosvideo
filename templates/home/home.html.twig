@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/acceuil.css') }}">
+
+{% endblock %}
+{% block title 'HuisClos' %}
+{% block body %}
+
+    {{ include('home/_banner.html.twig')}}
+    {{ include('home/_description.html.twig')}}
+    {{ include('home/_portfolio.html.twig')}}
+    {{ include('home/_equipe.html.twig')}}
+    {{ include('home/_contact.html.twig')}}
+    {{ include('home/_totalvideos.html.twig')}}
+    {{ include('home/_formcontact.html.twig')}}
+    {{ include('home/_footer.html.twig')}}
+
+{% endblock %}

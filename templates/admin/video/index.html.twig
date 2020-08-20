@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+{% block title 'Gérer les vidéos' %}
+{% block body %}
+
+    <div class="container">
+        <h1 class="mb-4">Gérer les vidéos</h1>
+
+        {% for message in app.flashes('success') %}
+            <div class="alert alert-success">{{ message }}</div>
+        {% endfor %}
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for video in videos %}
+                <tr>
+                    <td>{{ video.title }}</td>
+                    <td><a href="{{ path('admin.video.edit', {id: video.id}) }}" class="btn btn-secondary">modifier</a>
+                        <form method="POST" action="{{ path('admin.video.delete', {id: video.id}) }}" style="display: inline-block" onsubmit="return confirm('Vous êtes sûr ?')">
+                            <input type="hidden" name="_method" value="DELETE">
+                            <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ video.id) }}">
+                            <button class="btn btn-danger">supprimer</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <a href="{{ path('admin.video.new') }}" class="btn btn-primary">Créer une nouvelle video</a>
+        </div>
+    </div>
+
+{% endblock %}
