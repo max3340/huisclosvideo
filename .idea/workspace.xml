@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="623be344-57be-49b5-8dc1-d86b0bc8eb28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/huisclos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huisclos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/category/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/category/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/video/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/video/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/video/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/video/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/_totalvideos.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/_totalvideos.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/_equipe.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/_equipe.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/_portfolio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/_portfolio.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +170,7 @@
       <workItem from="1597917895103" duration="2381000" />
       <workItem from="1597920378724" duration="7845000" />
       <workItem from="1597933380194" duration="1660000" />
-      <workItem from="1597936210837" duration="4924000" />
+      <workItem from="1597936210837" duration="5424000" />
     </task>
     <servers />
   </component>
