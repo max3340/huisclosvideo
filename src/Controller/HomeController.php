@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Repository\CategoryRepository;
-use App\Repository\MembersRepository;
+use App\Repository\MemberRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -38,11 +38,11 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @param MembersRepository $repository
+     * @param MemberRepository $repository
      * @return Response
      * @Route("/equipe", name="home.equipe")
      */
-    public function equipe(MembersRepository $repository): Response
+    public function equipe(MemberRepository $repository): Response
     {
         $members = $repository->findAll();
         return $this->render('home/equipe.html.twig', [

@@ -1,0 +1,80 @@
+#menu-title{
+    color: white;
+}
+
+.photo-portfolio
+{
+    margin-left: 50px;
+    background-image: url("../../images/portfolio.jpg");
+    padding: 0.1px;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.photo-equipe
+{
+    margin-left: 50px;
+    background-image: url("../../images/Equipe.jpg");
+    padding: 0.1px;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.photo-contact
+{
+    margin-left: 50px;
+    background-image: url("../../images/Contact.jpg");
+    padding: 0.1px;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.side-menu-trigger
+{
+    color: white;
+    margin-top: 150px;
+    margin-left: -50px;
+    width: 370px;
+    height: 170px;
+    background-color: rgb(46,50,67);
+    border-radius: 3px;
+}
+
+#carre {
+    height: 30px;
+    width: 30px;
+    background: white;
+    -ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+
+.side-menu-trigger { transition: all .2s ease-in-out;}
+.side-menu-trigger:hover { transform: scale(1.1); justify-content: space-between;}
+
+.nous-contacter {
+    border: #CB9D81 solid 5px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-color: rgb(31,33,50);
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+.nous-contacter {
+
+    background: linear-gradient(to right, #CB9D81, #CB9D81);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+
+.nous-contacter:hover {
+    background-size: 100% 100%;
+}
