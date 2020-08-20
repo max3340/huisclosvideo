@@ -5,7 +5,7 @@
 .photo-portfolio
 {
     margin-left: 50px;
-    background-image: url("../../images/portfolio.jpg");
+    background-image: url("/public/images/portfolio.jpg");
     padding: 0.1px;
     background-size: cover;
     height: 500px;
@@ -15,7 +15,7 @@
 .photo-equipe
 {
     margin-left: 50px;
-    background-image: url("../../images/Equipe.jpg");
+    background-image: url("/public/images/Equipe.jpg");
     padding: 0.1px;
     background-size: cover;
     height: 500px;
@@ -25,7 +25,7 @@
 .photo-contact
 {
     margin-left: 50px;
-    background-image: url("../../images/Contact.jpg");
+    background-image: url("/public/images/Contact.jpg");
     padding: 0.1px;
     background-size: cover;
     height: 500px;
@@ -69,8 +69,7 @@
 
 .nous-contacter {
 
-    background: linear-gradient(to right, #CB9D81, #CB9D81);
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, #CB9D81, #CB9D81) no-repeat;
     background-size: 0 100%;
     transition: background-size 1s 0s;
 }
