@@ -5,7 +5,7 @@
 .photo-portfolio
 {
     margin-left: 50px;
-    background-image: url("../../images/portfolio.jpg");
+    background-image: url("../../images/PORTFOLIO.jpg");
     padding: 0.1px;
     background-size: cover;
     height: 500px;
@@ -15,7 +15,7 @@
 .photo-equipe
 {
     margin-left: 50px;
-    background-image: url("../../images/Equipe.jpg");
+    background-image: url("../../images/Equipe.JPG");
     padding: 0.1px;
     background-size: cover;
     height: 500px;
