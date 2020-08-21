@@ -12,6 +12,15 @@
     background-position: center;
 }
 
+.banner {
+    margin-left: 160px;
+    background-image: url("../../images/ACCEUIL.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding: 0.1px;
+}
+
 .photo-equipe
 {
     margin-left: 50px;
@@ -39,6 +48,18 @@
     margin-left: -50px;
     width: 370px;
     height: 170px;
+    background-color: rgb(46,50,67);
+    border-radius: 3px;
+}
+
+
+.side-menu-trigger-banner
+{
+    color: white;
+    margin-top: 244px;
+    margin-left: -142px;
+    width: 520px;
+    height: 360px;
     background-color: rgb(46,50,67);
     border-radius: 3px;
 }
